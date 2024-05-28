@@ -60,37 +60,6 @@ header {
   height: 65px;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  padding: 16px;
-  align-items: center;
-  height: 65px;
-}
-
-.nav_logo a {
-  text-decoration: none;
-  font-weight: 600;
-  color: #2c2c2c;
-  font-size: 22px;
-}
-
-.nav_links {
-  display: flex;
-  list-style: none;
-  text-decoration: none;
-  gap: 30px;
-}
-
-.nav_links .link {
-  text-decoration: none;
-  color: #444;
-}
-
-.nav_separator {
-  color: #444;
-}
-
 .burger {
   display: none;
   cursor: pointer;
@@ -105,12 +74,6 @@ header {
 }
 
 @media (max-width: 650px) {
-  .nav_links {
-    display: none;
-  }
-  .nav_separator {
-    display: none;
-  }
   .burger {
     display: block;
   }
@@ -275,18 +238,6 @@ header {
     padding: 70px 20px;
     text-align: center;
   }
-}
-
-.movies_grid {
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  text-align: center;
-}
-
-.movies_grid li h5 {
-  color: #444;
-  font-size: 20px;
 }
 
 .movie_image {
