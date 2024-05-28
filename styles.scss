@@ -32,6 +32,10 @@ ul {
   background-color: $primary-blue;
   transition: background 300ms ease;
   border-color: transparent;
+
+  @media (max-width: 600px) {
+    font-size: 14px;
+  }
 }
 
 .btn_submit:hover {
@@ -50,6 +54,9 @@ ul {
   transition: background 300ms ease;
   border-color: transparent;
   color: black;
+  @media (max-width: 600px) {
+    font-size: 14px;
+  }
 }
 
 .btn_outlined:hover {
