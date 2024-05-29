@@ -34,6 +34,7 @@ ul {
 }
 
 .btn_submit:hover {
+  color: white;
   background-color: #0191da;
 }
 
@@ -64,7 +65,7 @@ ul {
 /* NavBar */
 header {
   z-index: 999;
-  max-width: 1400px;
+  max-width: 1800px;
   padding: 16px;
   margin: auto;
   height: 65px;
@@ -97,7 +98,7 @@ header {
   align-items: center;
   gap: 50px;
   padding: 70px 40px;
-  max-width: 1400px;
+  max-width: 1800px;
   margin: auto;
 }
 @media (max-width: 450px) {
@@ -236,7 +237,6 @@ header {
 /* Catalogo */
 .catalogo_section {
   min-height: calc(100vh - 65px);
-  max-width: 1400px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -258,7 +258,7 @@ header {
 /* About */
 .about_section {
   min-height: calc(100vh - 65px);
-  max-width: 1400px;
+  max-width: 1800px;
   margin: auto;
   padding-top: 70px;
   align-items: center;
@@ -273,7 +273,6 @@ header {
 }
 .about_section article {
   display: grid;
-  grid-template-columns: 1fr 1fr;
   gap: 60px;
   align-items: center;
 }
@@ -297,20 +296,18 @@ header {
   margin: auto;
 }
 .about_section article div h5 {
-  font-size: 16px;
+  font-size: 18px;
   color: #444;
 }
 @media (max-width: 500px) {
+  .about_section article div h5 {
+    font-size: 16px;
+  }
   .about_section article div h2 {
     font-size: 24px;
   }
   .about_section article div p {
     font-size: 14px;
-  }
-}
-@media (max-width: 1300px) {
-  .about_section article {
-    grid-template-columns: 1fr;
   }
 }
 @media (max-width: 650px) {
@@ -326,7 +323,7 @@ header {
 .contact_section {
   min-height: calc(100vh - 65px);
   padding: 70px 16px;
-  max-width: 1400px;
+  max-width: 1800px;
   margin: auto;
   align-items: center;
   display: flex;
@@ -389,7 +386,7 @@ header {
 .movie_details_section {
   min-height: calc(100vh - 65px);
   padding: 16px;
-  max-width: 1400px;
+  max-width: 1800px;
   margin: auto;
   display: flex;
   gap: 40px;

@@ -39,6 +39,7 @@ ul {
 }
 
 .btn_submit:hover {
+  color: $alternative-text-color;
   background-color: $primary-blue-hover;
 }
 
@@ -68,7 +69,7 @@ ul {
 
 header {
   z-index: 999;
-  max-width: 1400px;
+  max-width: 1800px;
   padding: 16px;
   margin: auto;
   height: 65px;
@@ -103,7 +104,7 @@ header {
   align-items: center;
   gap: 50px;
   padding: 70px 40px;
-  max-width: 1400px;
+  max-width: 1800px;
   margin: auto;
 
   @media (max-width: 450px) {
@@ -246,7 +247,6 @@ header {
 
 .catalogo_section {
   min-height: calc(100vh - 65px);
-  max-width: 1400px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -268,7 +268,7 @@ header {
 
 .about_section {
   min-height: calc(100vh - 65px);
-  max-width: 1400px;
+  max-width: 1800px;
   margin: auto;
   padding-top: 70px;
   align-items: center;
@@ -284,7 +284,6 @@ header {
 
   article {
     display: grid;
-    grid-template-columns: 1fr 1fr;
     gap: 60px;
     align-items: center;
 
@@ -311,11 +310,15 @@ header {
       }
 
       h5 {
-        font-size: 16px;
+        font-size: 18px;
         color: $text-color;
       }
 
       @media (max-width: 500px) {
+        h5 {
+          font-size: 16px;
+        }
+
         h2 {
           font-size: 24px;
         }
@@ -324,10 +327,6 @@ header {
           font-size: 14px;
         }
       }
-    }
-
-    @media (max-width: 1300px) {
-      grid-template-columns: 1fr;
     }
   }
 
@@ -347,7 +346,7 @@ header {
 .contact_section {
   min-height: calc(100vh - 65px);
   padding: 70px 16px;
-  max-width: 1400px;
+  max-width: 1800px;
   margin: auto;
   align-items: center;
   display: flex;
@@ -416,7 +415,7 @@ header {
 .movie_details_section {
   min-height: calc(100vh - 65px);
   padding: 16px;
-  max-width: 1400px;
+  max-width: 1800px;
   margin: auto;
   display: flex;
   gap: 40px;
